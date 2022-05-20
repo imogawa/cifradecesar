@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    align-items: center;
+    font-family: 'Libre Baskerville', monospace;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 200px 150px 100px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+p {  
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+
+#textoASerCodificado, #textoASerRetornado {
+    margin-top: 30px;
+    padding: 10px 150px;
+    border-radius: 10px;
+}
+
+#radius, #deslocamento {
+    color: rgb(0, 255, 0);
+
+}
+
+#cod, #decod {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 255, 0);
+}
